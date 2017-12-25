@@ -1,10 +1,7 @@
-![Pattern Lab Logo](/patternlab.png "Pattern Lab Logo")
-
-![current release](https://img.shields.io/github/release/pattern-lab/edition-node-gulp.svg) ![license](https://img.shields.io/github/license/pattern-lab/edition-node-gulp.svg) [![Join the chat at Gitter](https://badges.gitter.im/pattern-lab/node.svg)](https://gitter.im/pattern-lab/node)
 
 # Pattern Lab Node - Gulp Edition
 
-The Gulp wrapper around [Pattern Lab Node Core](https://github.com/pattern-lab/patternlab-node), the default PatternEngine, and supporting frontend assets.
+The Gulp wrapper around [Pattern Lab Node Core](https://github.com/vnmilky/patternlab-node-mustache-milk), the default PatternEngine, and supporting frontend assets.
 
 ## Packaged Components
 
@@ -14,6 +11,8 @@ This Edition comes with the following components:
 * `pattern-lab/patternengine-node-mustache`: [GitHub](https://github.com/pattern-lab/patternengine-node-mustache) | [npm](https://www.npmjs.com/package/@pattern-lab/patternengine-node-mustache)
 * `pattern-lab/styleguidekit-assets-default`: [GitHub](https://github.com/pattern-lab/styleguidekit-assets-default) | [npm](https://www.npmjs.com/package/@pattern-lab/styleguidekit-assets-default)
 * `pattern-lab/styleguidekit-mustache-default`: [GitHub](https://github.com/pattern-lab/styleguidekit-mustache-default) | [npm](https://www.npmjs.com/package/@pattern-lab/styleguidekit-mustache-default)
+
+* `pattern-lab/starterkit-mustache-bootstrap`: [GitHub](https://github.com/pattern-lab/starterkit-mustache-bootstrap) | [npm](https://www.npmjs.com/package/@pattern-lab/starterkit-mustache-bootstrap)
 
 ## Prerequisites
 
@@ -27,7 +26,7 @@ As an Edition, the simplist installation sequence is to clone this repository.
 
 ``` bash
 mkdir newApp && cd newApp
-git clone https://github.com/pattern-lab/edition-node-gulp.git
+git clone https://github.com/vnmilky/patternlab-node-mustache-milk.git
 npm install
 ```
 
