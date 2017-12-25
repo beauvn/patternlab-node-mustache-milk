@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html class="">
+	<head>
+		<title>Pattern Lab</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+		
+		<link rel="stylesheet" href="../../css/main.css" media="all" />
+
+		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+		<link rel="stylesheet" href="../../styleguide/css/pattern-lab.css?1514173074596" media="all">
+		<!-- End Pattern Lab -->
+	
+	</head>
+	<body class="">	
+		<!-- View All Patterns in a Pattern Sub-Type -->
+<div class="pl-c-main">
+  
+	<!-- Index of Patterns -->
+	<div class="pl-c-pattern-index">
+	
+<div id="viewall-atoms-forms" class="pl-c-category">
+		
+	<h2 class="pl-c-category__title">
+		<a href="../../patterns/00-atoms-04-forms&#x2F;index.html" class="pl-c-category__title-link patternLink" data-patternpartial="viewall-atoms-forms">forms</a>
+	</h2><!--end pl-c-category__title-->
+
+	<div class="pl-c-category__description pl-c-text-passage">
+		
+	</div><!--end pl-c-category__description-->
+	
+</div><!--end pl-c-category-->
+	<div id="atoms-input" class="pl-c-pattern">
+
+	<div class="pl-c-pattern__header">
+
+		<h3 class="pl-c-pattern__title">
+				
+			<a href="../../patterns/00-atoms-04-forms-00-input&#x2F;00-atoms-04-forms-00-input.rendered.html" class="pl-c-pattern__title-link patternLink" data-patternpartial="atoms-input" title="Link to Pattern">
+				Input
+				
+
+			</a><!--end pl-c-pattern__title-link-->
+
+		</h3><!--end pl-c-pattern__title-->
+
+		<button class="pl-c-pattern__extra-toggle pl-js-pattern-extra-toggle" id="pl-pattern-extra-toggle-atoms-input" data-patternpartial="atoms-input" title="View Pattern Info">
+			<span class="pl-c-pattern__toggle-icon">&#9660;</span>
+		</button><!--end pl-c-pattern__extra-toggle-->
+		
+	</div><!--end pl-c-pattern__header-->
+  
+	<div class="pl-c-pattern__extra pl-js-pattern-extra" id="pl-pattern-extra-atoms-input">
+    </div><!--end pl-c-pattern__extra-->
+
+	<div class="pl-js-pattern-example">
+	<input type="text" class="form-control" placeholder="Placeholder Text" aria-describedby="basic-addon1">
+
+
+
+
+
+	</div><!--end pl-js-pattern-example-->
+
+	<script type="text/json" id="pl-pattern-data-atoms-input" class="pl-js-pattern-data">
+	{"cssEnabled":false,"patternLineageExists":false,"patternLineages":[],"lineage":[],"patternLineageRExists":true,"patternLineagesR":[{"lineagePattern":"molecules-input-groups","lineagePath":"../../patterns/01-molecules-02-forms-00-input-groups/01-molecules-02-forms-00-input-groups.rendered.html"},{"lineagePattern":"molecules-input-groups-checkbox","lineagePath":"../../patterns/01-molecules-02-forms-02-input-groups-checkbox/01-molecules-02-forms-02-input-groups-checkbox.rendered.html"},{"lineagePattern":"molecules-input-groups-radio","lineagePath":"../../patterns/01-molecules-02-forms-03-input-groups-radio/01-molecules-02-forms-03-input-groups-radio.rendered.html"},{"lineagePattern":"molecules-input-groups-button","lineagePath":"../../patterns/01-molecules-02-forms-04-input-groups-button/01-molecules-02-forms-04-input-groups-button.rendered.html"},{"lineagePattern":"organisms-input-groups-dropdown","lineagePath":"../../patterns/02-organisms-01-forms-00-input-groups-dropdown/02-organisms-01-forms-00-input-groups-dropdown.rendered.html"},{"lineagePattern":"organisms-input-groups-segmented","lineagePath":"../../patterns/02-organisms-01-forms-01-input-groups-segmented/02-organisms-01-forms-01-input-groups-segmented.rendered.html"}],"lineageR":[{"lineagePattern":"molecules-input-groups","lineagePath":"../../patterns/01-molecules-02-forms-00-input-groups/01-molecules-02-forms-00-input-groups.rendered.html"},{"lineagePattern":"molecules-input-groups-checkbox","lineagePath":"../../patterns/01-molecules-02-forms-02-input-groups-checkbox/01-molecules-02-forms-02-input-groups-checkbox.rendered.html"},{"lineagePattern":"molecules-input-groups-radio","lineagePath":"../../patterns/01-molecules-02-forms-03-input-groups-radio/01-molecules-02-forms-03-input-groups-radio.rendered.html"},{"lineagePattern":"molecules-input-groups-button","lineagePath":"../../patterns/01-molecules-02-forms-04-input-groups-button/01-molecules-02-forms-04-input-groups-button.rendered.html"},{"lineagePattern":"organisms-input-groups-dropdown","lineagePath":"../../patterns/02-organisms-01-forms-00-input-groups-dropdown/02-organisms-01-forms-00-input-groups-dropdown.rendered.html"},{"lineagePattern":"organisms-input-groups-segmented","lineagePath":"../../patterns/02-organisms-01-forms-01-input-groups-segmented/02-organisms-01-forms-01-input-groups-segmented.rendered.html"}],"patternLineageEExists":true,"patternDesc":"","patternBreadcrumb":{"patternType":"atoms","patternSubtype":"forms"},"patternExtension":"mustache","patternName":"Input","patternPartial":"atoms-input","patternState":"","patternEngineName":"mustache","extraOutput":{}}
+	</script>
+
+</div><!--end pl-c-pattern-->
+  </div><!--end pl-c-pattern-index-->
+
+</div><!--end pl-c-main-->
+<script src="../../js/vendor/jquery.min.js"></script>
+<script src="../../js/bootstrap.js"></script>
+			
+	<!--DO NOT REMOVE-->
+	<script type="text/json" id="pl-pattern-data-footer" class="pl-js-pattern-data">
+  {"patternPartial":"viewall-atoms-forms"}
+</script>
+
+<script>
+  /*!
+   * scriptLoader - v0.1
+   *
+   * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+   * Licensed under the MIT license
+   *
+   */
+  
+  var scriptLoader = {
+    
+    run: function(js,cb,target) {
+      var s  = document.getElementById(target+'-'+cb);
+      for (var i = 0; i < js.length; i++) {
+        var src = (typeof js[i] != 'string') ? js[i].src : js[i];
+        var c   = document.createElement('script');
+        c.src   = '../../'+src+'?'+cb;
+        if (typeof js[i] != 'string') {
+          if (js[i].dep !== undefined) {
+            c.onload = function(dep,cb,target) {
+              return function() {
+                scriptLoader.run(dep,cb,target);
+              }
+            }(js[i].dep,cb,target);
+          }
+        }
+        s.parentNode.insertBefore(c,s);
+      }
+    }
+    
+  }
+</script>
+
+<script id="pl-js-polyfill-insert-1514173074596">
+  (function() {
+    if (self != top) {
+      var cb = '1514173074596';
+      var js = [];
+      if (typeof document !== 'undefined' && !('classList' in document.documentElement)) {
+        js.push('styleguide/bower_components/classList.min.js');
+      }
+      scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+    }
+  })();
+</script>
+
+<script id="pl-js-insert-1514173074596">
+  (function() {
+    if (self != top) {
+      var cb = '1514173074596';
+      var js = [ { 'src': 'styleguide/bower_components/jwerty.min.js', 'dep': [ 'styleguide/js/patternlab-pattern.min.js' ] } ];
+      scriptLoader.run(js,cb,'pl-js-insert');
+    }
+  })();
+</script>
+
+	
+	</body>
+</html>
